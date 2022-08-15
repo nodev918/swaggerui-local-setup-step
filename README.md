@@ -23,8 +23,11 @@ $ sudo docker pull swaggerapi/swagger-ui
 $ sudo docker run -d -p 8886:8080 --name swagger swaggerapi/swagger-ui
 ```
 參數說明
+
 -d, detach, 在背景執行不然會卡住 terminal
+
 -p, port binding, 把 docker內的8080 bind 到 目前機器上的 8886
+
 --name, 命名為swagger, 比較好操作
 
 打開網頁, 輸入 http://localhost:8886, 就能看到 swagger-ui 的頁面了！( 快速驗證完成 )
